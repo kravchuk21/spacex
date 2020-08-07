@@ -9,12 +9,13 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/vidbg.css" />
+    <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header class="header">
-      <img src="img/logo.svg" alt="Space X" class="logo" />
-      <nav class="main-menu">
+      <img class="logo" src="img/logo.svg" alt="Space X" data-aos="fade-down"/>
+      <nav class="main-menu" data-aos="fade-down" data-aos-delay="100">
         <ul class="list">
           <li class="item">
             <a href="#" class="item-link">Falcon 9</a>
@@ -30,7 +31,7 @@
           </li>
         </ul>
       </nav>
-      <nav class="secondary-nav">
+      <nav class="secondary-nav" data-aos="fade-down" data-aos-delay="200">
         <ul class="list">
           <li class="item"><a href="#" class="item-link">About</a></li>
           <li class="item"><a href="#" class="item-link">Gallery</a></li>
@@ -41,23 +42,23 @@
     <!-- /.header -->
 
     <section class="main">
-      <h1 class="title">Falcon Heavy</h1>
-      <p class="description">
+      <h1 class="title" data-aos="zoom-in-up" data-aos-delay="400">Falcon Heavy</h1>
+      <p class="description" data-aos="zoom-in-up" data-aos-delay="500">
         The most powerful operational rocket in the world by a factor of two
       </p>
     </section>
     <!-- /.main -->
 
-    <div class="video"></div>
+    <div class="video" data-aos="zoom-in-up"></div>
     <!-- /.video -->
 
     <section class="features">
       <div class="overview">
-        <h2 class="features-title">
+        <h2 class="features-title" data-aos="fade-right">
           Falcon Heavy <br />
           Overview
         </h2>
-        <table class="table">
+        <table class="table" data-aos="fade-right">
           <tr>
             <td class="table-column">HEIGHT</td>
             <td class="table-column">
@@ -101,11 +102,11 @@
           class="rocket"
           data-rellax-speed="14"
         />
-        <h2 class="features-title">
+        <h2 class="features-title" data-aos="fade-right">
           UNMATCHED <br />
           PERFORMANCE
         </h2>
-        <p class="features-text">
+        <p class="features-text" data-aos="fade-right">
           With more than 5 million pounds of thrust at liftoff, Falcon Heavy is
           the most capable rocket flying. By comparison, the liftoff thrust of
           the Falcon Heavy equals approximately eighteen 747 aircraft at full
@@ -116,29 +117,30 @@
     </section>
     <!-- /.features -->
     <footer class="footer">
-      <img src="img/logo.svg" alt="Space X" class="logo" />
+      <img src="img/logo.svg" alt="Space X" class="logo" data-aos="zoom-in-up"/>
       <nav class="footer-nav">
         <ul class="list">
-          <li class="item"><a href="#" class="item-link">Twitter</a></li>
-          <li class="item"><a href="#" class="item-link">Youtube</a></li>
-          <li class="item"><a href="#" class="item-link">Instagram</a></li>
-          <li class="item"><a href="#" class="item-link">Flickr</a></li>
-          <li class="item"><a href="#" class="item-link">LinkedIn</a></li>
-          <li class="item"><a href="#" class="item-link">Privacy</a></li>
-          <li class="item"><a href="#" class="item-link">Policy</a></li>
+          <li class="item"><a href="#" class="item-link" data-aos="zoom-in-up" >Twitter</a></li>
+          <li class="item"><a href="#" class="item-link" data-aos="zoom-in-up" data-aos-delay="100">Youtube</a></li>
+          <li class="item"><a href="#" class="item-link" data-aos="zoom-in-up" data-aos-delay="200">Instagram</a></li>
+          <li class="item"><a href="#" class="item-link" data-aos="zoom-in-up" data-aos-delay="300">Flickr</a></li>
+          <li class="item"><a href="#" class="item-link" data-aos="zoom-in-up" data-aos-delay="400">LinkedIn</a></li>
+          <li class="item"><a href="#" class="item-link" data-aos="zoom-in-up" data-aos-delay="500">Privacy</a></li>
+          <li class="item"><a href="#" class="item-link" data-aos="zoom-in-up" data-aos-delay="600">Policy</a></li>
         </ul>
       </nav>
-      <div class="footer-text">
+      <div class="footer-text" data-aos="zoom-in-up">
         For additional questions, contact
         <a class="footer-link" href="mailto:rideshare@spacex.com">
           rideshare@spacex.com
         </a>
       </div>
-      <a href="#" class="button">Contact us</a>
+      <a href="#" class="button" data-aos="zoom-in-up" data-aos-delay="100">Contact us</a>
     </footer>
     <!-- /.footer -->
     <script src="js/vidbg.js"></script>
     <script src="js/relax.min.js"></script>
+    <script src="js/aos.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
